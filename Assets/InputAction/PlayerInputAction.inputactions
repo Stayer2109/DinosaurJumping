@@ -1,0 +1,45 @@
+{
+    "name": "PlayerInputAction",
+    "maps": [
+        {
+            "name": "Player Movement",
+            "id": "6f2ff3d6-887f-45eb-b477-35089390c7cb",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "771f49e3-7df1-44d5-bbf4-c668d943398e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6dfca130-165f-415f-965b-92bea5348e62",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "776d6ad5-16a4-4be6-b24e-24dddc6f6678",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
